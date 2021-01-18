@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    overflow: hidden;
+}
+.left-block{
+    background: #000;
+    float: left;
+    width: 260px;
+    
+    height: 640px;
+    padding: 30px;
+    color: #fff;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.logo{
+    margin-bottom: 50px;
+}
+
+.logo > img{
+    float: left;
+    height: 36px;
+}
+
+.logo > h3{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+span.tagline{
+    font-size: 10px;
+}
+span.blue{
+    color: #3ea2d8;
+}
+
+.big-title{
+    margin: 50px 0;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+p.info{
+    font-size: 16px;
+    line-height: 16px;
+    color: #ffffff;
+    font-family: "Raleway";
+    font-weight: 500;
+}
+
+a.readmore{
+    font-family: 'Open Sans', sans-serif;
+    color: #f4f4f4;
+    text-decoration: none;
+    border: #3ea2d8 2px solid;
+    padding: 8px 15px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 20px 0;
+}
+.social-icons{
+    margin-top: 50px;
+}
+.social-icons > a > i{
+    margin: 0 10px;
+    color: rgb(92, 90, 90) !important;
+}
+/* content with menu */
+div.content{
+    box-sizing: border-box;
+    margin-left: 260px;
+    float: right;
+    width: 81%;
+    height: 640px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url("imgs/sport-girl.png")
+}
+nav.navigation 
+{
+    margin-top: 60px;
+}
+
+
+ul.menu{
+    list-style: none;
+}
+
+ul.menu > li{
+    float: left;
+}
+
+
+ul.menu > li > a{
+    padding: 5px 30px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Open Sans' , sans-serif
+}
+
+.clear{clear: both;}
